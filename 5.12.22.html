@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+<body>
+<div>
+    <form action="https://formspree.io/f/xrgdnpyk" method="post" target="_blank">
+     <fieldset>
+        <legend>Personal Info</legend>
+       
+        <label for="1">name</label>
+            <input type="text" name="name" id="1">
+            <br><br>
+        <label for="2">surname</label>   
+            <input type="text" name="surname" id="2">
+            <br><br>
+        <label for="3">email</label>    
+            <input type="email" name="email" id="3">
+            <br><br>
+        <label for="4">date of birth</label>    
+            <input type="date" name="date of birth" id="4">
+            <br><br>
+        <span>gender</span><br><br>   
+        <label for="Male">Male</label>
+            <input type="radio" name="male" id="Male"><br>
+            <label for="Female">Female</label>    
+            <input type="radio" name="Female" id="Female"><br>
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="Non-binary" id="Non-binary"><br>
+            <label for="perfer-not-to-say">Perfer not to say</label>
+            <input type="radio" name="other" id="perfer-not-to-say"><br>
+            <br><br>
+        <label for="6">country</label>    
+            <select name="country" id="6">
+                <option value="israel">israel</option>
+                <option value="USA">USA</option>
+                <option value="russia">russia</option>
+                <option value="north-macedonia">North Macedonia</option>
+            </select>
+     </fieldset>
+     <br><br>
+     <fieldset>
+        <legend>Profile</legend>
+        <label for="7">Upload a profile picture</label>
+            <input type="file" name="profile-picture" id="7" accept="jpeg' png"><br><br>
+        <label for="8">Insert a desired nickname</label>   
+            <input type="text" name="nickname" id="8"><br><br>
+        <label for="9">Your favorite color</label>    
+            <input type="color" name="fave-color" id="9"><br><br>
+        <label for="10">Insert password</label>
+            <input type="password" name="password" id="10"><br><br>
+        <label for="11">Your bio</label>   
+            <textarea name="bio" id="11" cols="30" rows="10"></textarea>
+    </fieldset> 
+    <br><br>
+    <fieldset>
+        <legend>favorite animal</legend>
+        <label for="12">Dogs</label>    
+            <input type="checkbox" name="dogs" id="12">
+        <label for="13">Cats</label>    
+            <input type="checkbox" name="cats" id="13">
+        <label for="14">Camels</label>    
+            <input type="checkbox" name="Camels" id="14">
+        <label for="15">Hamster</label>    
+            <input type="checkbox" name="Hamster" id="15">
+        <label for="16">Unicorn</label>    
+            <input type="checkbox" name="Unicorn" id="16">            
+    </fieldset> 
+    <br><br>
+    <fieldset>
+        <legend> personal AF questions</legend>
+        <label for="height">Height</label>
+        <input type="number" min="0" max="250" name="height" id="height"><span>cm</span><br><br>
+        <label for="Happy-spectrum">How happy are you?</label>
+        <input type="range" name="happy?">
+    </fieldset>    
+    <br><br>
+        <input type="reset">
+        <button>submit</button>
+    </form>
+
+</div>
+</body>
+</html>
